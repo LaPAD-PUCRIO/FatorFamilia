@@ -1,0 +1,358 @@
+question,option,input_type,input_id,dependence,dependence_value,required
+Qual seu Nome?,Sua resposta,text,q1,NA,NA,T
+Qua seu gênero?,Masculino,mc,q2,NA,NA,T
+Qua seu gênero?,Femino,mc,q2,NA,NA,T
+Qua seu gênero?,Outro,mc,q2,NA,NA,T
+Qual sua raça/cor?,Branco(a),mc,q3,NA,NA,T
+Qual sua raça/cor?,Preto(a)/Pardo(a),mc,q3,NA,NA,T
+Qual sua raça/cor?,Amarelo(a),mc,q3,NA,NA,T
+Sua idade:,25,numeric,q4,NA,NA,T
+Sua Renda familiar:,"Abaixo de R$ 1.000,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"De R$ 1.000,00 a R$ 1.999,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"De R$ 2.000,00 a 2.999,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"De R$ 3.000,00 a R$ 3.999,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"De R$ 4.000,00a R$ 4.999,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"De R$ 5.000,00 a 5.999,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"De R$ 6.000,00 a R$ 6.999,00",mc,q5,NA,NA,T
+Sua Renda familiar:,"Igual ou acima de R$ 7.000,00",mc,q5,NA,NA,T
+Sua escolaridade:,Sem escolaridade,mc,q6,NA,NA,T
+Sua escolaridade:,Ensino fundamental incompleto,mc,q6,NA,NA,T
+Sua escolaridade:,Ensino fundamental completo,mc,q6,NA,NA,T
+Sua escolaridade:,Ensino médio incompleto,mc,q6,NA,NA,T
+Sua escolaridade:,Ensino médio completo,mc,q6,NA,NA,T
+Sua escolaridade:,Ensino superior incompleto,mc,q6,NA,NA,T
+Sua escolaridade:,Ensino superior completo,mc,q6,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Mãe,mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Pai,mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Esposo(a)/companheiro(a),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Avô(ó),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Neto(a),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Tio(a),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Sobrinho(a),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Primo(a),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Padrato/Madrasta,mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Filho(a),mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Outro,mc,q7,NA,NA,T
+"Em relação ao seu familiar que faz uso de droga, você é:",Sua resposta,text,q8,q7,Outro,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Álcool,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Anfetamina,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Cocaína,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Crack,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Êxtase,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Heroína,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,LSD,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Maconha,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Tabaco,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,Outro.,mc,q9.0,NA,NA,F
+Tipo(s) de droga(s) utilizada(s) pelo familiar,"Caso o familiar utilize mais de uma droga, especifique aqui:",text,q9.0.1,q9.0,Outro.,F
+ESCALA DE ESTIGMA DE CORTESIA ENTRE FAMILIARES DE USUÁRIOS DE DROGAS( ECOFAD),Discordo totalmente (1),matrix,q9.0.2,NA,NA,F
+ESCALA DE ESTIGMA DE CORTESIA ENTRE FAMILIARES DE USUÁRIOS DE DROGAS( ECOFAD),Discordo Parcialmente (2),matrix,q9.0.2,NA,NA,F
+ESCALA DE ESTIGMA DE CORTESIA ENTRE FAMILIARES DE USUÁRIOS DE DROGAS( ECOFAD),Nem concordo nem discordo (3),matrix,q9.0.2,NA,NA,F
+ESCALA DE ESTIGMA DE CORTESIA ENTRE FAMILIARES DE USUÁRIOS DE DROGAS( ECOFAD),Concordo parcialmente (4),matrix,q9.0.2,NA,NA,F
+ESCALA DE ESTIGMA DE CORTESIA ENTRE FAMILIARES DE USUÁRIOS DE DROGAS( ECOFAD),Concordo totalmente (5),matrix,q9.0.2,NA,NA,F
+Eu me preocuparia se as pessoas descobrissem que eu tenho um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q9,NA,NA,T
+Eu me preocuparia se as pessoas descobrissem que eu tenho um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q9,NA,NA,T
+Eu me preocuparia se as pessoas descobrissem que eu tenho um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q9,NA,NA,T
+Eu me preocuparia se as pessoas descobrissem que eu tenho um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q9,NA,NA,T
+Eu me preocuparia se as pessoas descobrissem que eu tenho um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q9,NA,NA,T
+"Eu tenho receio de ser rejeitado pelas pessoas no meu trabalho, se elas descorirem que eu tenho um familiar que faz uso de drogas",Discordo totalmente (1),matrix,q10,NA,NA,T
+"Eu tenho receio de ser rejeitado pelas pessoas no meu trabalho, se elas descorirem que eu tenho um familiar que faz uso de drogas",Discordo Parcialmente (2),matrix,q10,NA,NA,T
+"Eu tenho receio de ser rejeitado pelas pessoas no meu trabalho, se elas descorirem que eu tenho um familiar que faz uso de drogas",Nem concordo nem discordo (3),matrix,q10,NA,NA,T
+"Eu tenho receio de ser rejeitado pelas pessoas no meu trabalho, se elas descorirem que eu tenho um familiar que faz uso de drogas",Concordo parcialmente (4),matrix,q10,NA,NA,T
+"Eu tenho receio de ser rejeitado pelas pessoas no meu trabalho, se elas descorirem que eu tenho um familiar que faz uso de drogas",Concordo totalmente (5),matrix,q10,NA,NA,T
+Eu me sinto inferir as outras pessoas por ter um familiar usuário de drogas,Discordo totalmente (1),matrix,q11,NA,NA,T
+Eu me sinto inferir as outras pessoas por ter um familiar usuário de drogas,Discordo Parcialmente (2),matrix,q11,NA,NA,T
+Eu me sinto inferir as outras pessoas por ter um familiar usuário de drogas,Nem concordo nem discordo (3),matrix,q11,NA,NA,T
+Eu me sinto inferir as outras pessoas por ter um familiar usuário de drogas,Concordo parcialmente (4),matrix,q11,NA,NA,T
+Eu me sinto inferir as outras pessoas por ter um familiar usuário de drogas,Concordo totalmente (5),matrix,q11,NA,NA,T
+Eu me sinto chateado por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q12,NA,NA,T
+Eu me sinto chateado por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q12,NA,NA,T
+Eu me sinto chateado por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q12,NA,NA,T
+Eu me sinto chateado por ter um familiar que faz uso de drogas,Concordo parciallmente (4),matrix,q12,NA,NA,T
+Eu me sinto chateado por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q12,NA,NA,T
+Eu me sinto envergonhado por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q13,NA,NA,T
+Eu me sinto envergonhado por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q13,NA,NA,T
+Eu me sinto envergonhado por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q13,NA,NA,T
+Eu me sinto envergonhado por ter um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q13,NA,NA,T
+Eu me sinto envergonhado por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q13,NA,NA,T
+Eu me sinto desanimado por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q14,NA,NA,T
+Eu me sinto triste por ter um familiar que faz uso de drogas,Discordo Totalmente (1),matrix,q14,NA,NA,T
+Eu me sinto triste por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q14,NA,NA,T
+Eu me sinto triste por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q14,NA,NA,T
+Eu me sinto triste por ter um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q14,NA,NA,T
+Eu me sinto triste por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q14,NA,NA,T
+Eu me sinto muito pressionado por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q15,NA,NA,T
+Eu me sinto muito pressionado por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q15,NA,NA,T
+Eu me sinto muito pressionado por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q15,NA,NA,T
+Eu me sinto muito pressionado por ter um familiar que faz uso de drogas,Concordo parciallmente (4),matrix,q15,NA,NA,T
+Eu me sinto muito pressionado por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q15,NA,NA,T
+Eu me sinto muito culpado por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q16,NA,NA,T
+Eu me sinto muito culpado por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q16,NA,NA,T
+Eu me sinto muito culpado por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q16,NA,NA,T
+Eu me sinto muito culpado por ter um familiar que faz uso de drogas,Concordo parciallmente (4),matrix,q16,NA,NA,T
+Eu me sinto muito culpado por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q16,NA,NA,T
+Eu me sinto fracassado por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q17,NA,NA,T
+Eu me sinto fracassado por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q17,NA,NA,T
+Eu me sinto fracassado por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q17,NA,NA,T
+Eu me sinto fracassado por ter um familiar que faz uso de drogas,Concordo parciallmente (4),matrix,q17,NA,NA,T
+Eu me sinto fracassado por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q17,NA,NA,T
+Eu me sofro discriminação por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q18,NA,NA,T
+Eu me sofro discriminação por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q18,NA,NA,T
+Eu me sofro discriminação por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q18,NA,NA,T
+Eu me sofro discriminação por ter um familiar que faz uso de drogas,Concordo parciallmente (4),matrix,q18,NA,NA,T
+Eu me sofro discriminação por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q18,NA,NA,T
+A minha reputação está prejudicada por eu ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q19,NA,NA,T
+A minha reputação está prejudicada por eu ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q19,NA,NA,T
+A minha reputação está prejudicada por eu ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q19,NA,NA,T
+A minha reputação está prejudicada por eu ter um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q19,NA,NA,T
+A minha reputação está prejudicada por eu ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q19,NA,NA,T
+Ter um familiar que faz uso de drogas me faz pensar que sou incompetente em comparação as outras pessoas,Discordo totalmente (1),matrix,q20,NA,NA,T
+Ter um familiar que faz uso de drogas me faz pensar que sou incompetente em comparação as outras pessoas,Discordo Parcialmente (2),matrix,q20,NA,NA,T
+Ter um familiar que faz uso de drogas me faz pensar que sou incompetente em comparação as outras pessoas,Nem concordo nem discordo (3),matrix,q20,NA,NA,T
+Ter um familiar que faz uso de drogas me faz pensar que sou incompetente em comparação as outras pessoas,Concordo parcialmente (4),matrix,q20,NA,NA,T
+Ter um familiar que faz uso de drogas me faz pensar que sou incompetente em comparação as outras pessoas,Concordo totalmente (5),matrix,q20,NA,NA,T
+As pessoas acham que a família é responsável pelos comportamentos do usuário de drogas,Discordo totalmente (1),matrix,q21,NA,NA,T
+As pessoas acham que a família é responsável pelos comportamentos do usuário de drogas,Discordo Parcialmente (2),matrix,q21,NA,NA,T
+As pessoas acham que a família é responsável pelos comportamentos do usuário de drogas,Nem concordo nem discordo (3),matrix,q21,NA,NA,T
+As pessoas acham que a família é responsável pelos comportamentos do usuário de drogas,Concordo parcialmente (4),matrix,q21,NA,NA,T
+As pessoas acham que a família é responsável pelos comportamentos do usuário de drogas,Concordo totalmente (5),matrix,q21,NA,NA,T
+"As pessoas se preocupam com minha segurança, quando descobrem que eu teho um familiar que faz uso de drogas",Discordo totalmente (1),matrix,q22,NA,NA,T
+"As pessoas se preocupam com minha segurança, quando descobrem que eu teho um familiar que faz uso de drogas",Discordo Parcialmente (2),matrix,q22,NA,NA,T
+"As pessoas se preocupam com minha segurança, quando descobrem que eu teho um familiar que faz uso de drogas",Nem concordo nem discordo (3),matrix,q22,NA,NA,T
+"As pessoas se preocupam com minha segurança, quando descobrem que eu teho um familiar que faz uso de drogas",Concordo parcialmente (4),matrix,q22,NA,NA,T
+"As pessoas se preocupam com minha segurança, quando descobrem que eu teho um familiar que faz uso de drogas",Concordo totalmente (5),matrix,q22,NA,NA,T
+"As pessoas consideram que os usuários de drogas não melhoram no tratamento, e isto deve causar tristeza aos familiares",Discordo totalmente (1),matrix,q23,NA,NA,T
+"As pessoas consideram que os usuários de drogas não melhoram no tratamento, e isto deve causar tristeza aos familiares",Discordo Parcialmente (2),matrix,q23,NA,NA,T
+"As pessoas consideram que os usuários de drogas não melhoram no tratamento, e isto deve causar tristeza aos familiares",Nem concordo nem discordo (3),matrix,q23,NA,NA,T
+"As pessoas consideram que os usuários de drogas não melhoram no tratamento, e isto deve causar tristeza aos familiares",Concordo parcialmente (4),matrix,q23,NA,NA,T
+"As pessoas consideram que os usuários de drogas não melhoram no tratamento, e isto deve causar tristeza aos familiares",Concordo totalmente (5),matrix,q23,NA,NA,T
+Familiares de usuários de drogas são considerados pela mídia como pessoas com desvio de caráter,Discordo totalmente (1),matrix,q24,NA,NA,T
+Familiares de usuários de drogas são considerados pela mídia como pessoas com desvio de caráter,Discordo Parcialmente (2),matrix,q24,NA,NA,T
+Familiares de usuários de drogas são considerados pela mídia como pessoas com desvio de caráter,Nem concordo nem discordo (3),matrix,q24,NA,NA,T
+Familiares de usuários de drogas são considerados pela mídia como pessoas com desvio de caráter,Concordo parcialmente (4),matrix,q24,NA,NA,T
+Familiares de usuários de drogas são considerados pela mídia como pessoas com desvio de caráter,Concordo totalmente (5),matrix,q24,NA,NA,T
+As pessoas não estão dispostas a cuidar de um membbro na família que faz uso de drogas,Discordo totalmente (1),matrix,q25,NA,NA,T
+As pessoas não estão dispostas a cuidar de um membbro na família que faz uso de drogas,Discordo Parcialmente (2),matrix,q25,NA,NA,T
+As pessoas não estão dispostas a cuidar de um membbro na família que faz uso de drogas,Nem concordo nem discordo (3),matrix,q25,NA,NA,T
+As pessoas não estão dispostas a cuidar de um membbro na família que faz uso de drogas,Concordo parcialmente (4),matrix,q25,NA,NA,T
+As pessoas não estão dispostas a cuidar de um membbro na família que faz uso de drogas,Concordo totalmente (5),matrix,q25,NA,NA,T
+As pessoas acham que filhos de pais que usam drogas não deveriam ir à escola,Discordo totalmente (1),matrix,q26,NA,NA,T
+As pessoas acham que filhos de pais que usam drogas não deveriam ir à escola,Discordo Parcialmente (2),matrix,q26,NA,NA,T
+As pessoas acham que filhos de pais que usam drogas não deveriam ir à escola,Nem concordo nem discordo (3),matrix,q26,NA,NA,T
+As pessoas acham que filhos de pais que usam drogas não deveriam ir à escola,Concordo parcialmente (4),matrix,q26,NA,NA,T
+As pessoas acham que filhos de pais que usam drogas não deveriam ir à escola,Concordo totalmente (5),matrix,q26,NA,NA,T
+As pessoas não se casariam com alguém que tenha uma pessoa que faz uso de drogas na família,Discordo totalmente (1),matrix,q27,NA,NA,T
+As pessoas não se casariam com alguém que tenha uma pessoa que faz uso de drogas na família,Discordo Parcialmente (2),matrix,q27,NA,NA,T
+As pessoas não se casariam com alguém que tenha uma pessoa que faz uso de drogas na família,Nem concordo nem discordo (3),matrix,q27,NA,NA,T
+As pessoas não se casariam com alguém que tenha uma pessoa que faz uso de drogas na família,Concordo parcialmente (4),matrix,q27,NA,NA,T
+As pessoas não se casariam com alguém que tenha uma pessoa que faz uso de drogas na família,Concordo totalmente (5),matrix,q27,NA,NA,T
+Pais vão querer manter seus filhos longe das crianças que têm familiares que fazem uso de drogas,Discordo totalmente (1),matrix,q28,NA,NA,T
+Pais vão querer manter seus filhos longe das crianças que têm familiares que fazem uso de drogas,Discordo Parcialmente (2),matrix,q28,NA,NA,T
+Pais vão querer manter seus filhos longe das crianças que têm familiares que fazem uso de drogas,Nem concordo nem discordo (3),matrix,q28,NA,NA,T
+Pais vão querer manter seus filhos longe das crianças que têm familiares que fazem uso de drogas,Concordo parcialmente (4),matrix,q28,NA,NA,T
+Pais vão querer manter seus filhos longe das crianças que têm familiares que fazem uso de drogas,Concordo totalmente (5),matrix,q28,NA,NA,T
+As pessoas frequentemente me tratam com ar de superioridade por eu ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q29,NA,NA,T
+As pessoas frequentemente me tratam com ar de superioridade por eu ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q29,NA,NA,T
+As pessoas frequentemente me tratam com ar de superioridade por eu ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q29,NA,NA,T
+As pessoas frequentemente me tratam com ar de superioridade por eu ter um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q29,NA,NA,T
+As pessoas frequentemente me tratam com ar de superioridade por eu ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q29,NA,NA,T
+Ninguém gostaria de se aproximar de mim porque eu tenho um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q30,NA,NA,T
+Ninguém gostaria de se aproximar de mim porque eu tenho um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q30,NA,NA,T
+Ninguém gostaria de se aproximar de mim porque eu tenho um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q30,NA,NA,T
+Ninguém gostaria de se aproximar de mim porque eu tenho um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q30,NA,NA,T
+Ninguém gostaria de se aproximar de mim porque eu tenho um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q30,NA,NA,T
+As pessoas não me levam a sério por eu ter um familiar que faz uso de drofas,Discordo totalmente (1),matrix,q31,NA,NA,T
+As pessoas não me levam a sério por eu ter um familiar que faz uso de drofas,Discordo Parcialmente (2),matrix,q31,NA,NA,T
+As pessoas não me levam a sério por eu ter um familiar que faz uso de drofas,Nem concordo nem discordo (3),matrix,q31,NA,NA,T
+As pessoas não me levam a sério por eu ter um familiar que faz uso de drofas,Concordo parcialmente (4),matrix,q31,NA,NA,T
+As pessoas não me levam a sério por eu ter um familiar que faz uso de drofas,Concordo totalmente (5),matrix,q31,NA,NA,T
+"Por eu ter um familiar que faz uso de drogas, eu acho que as pessoas não percebem minhas qualidades",Discordo totalmente (1),matrix,q32,NA,NA,T
+"Por eu ter um familiar que faz uso de drogas, eu acho que as pessoas não percebem minhas qualidades",Discordo Parcialmente (2),matrix,q32,NA,NA,T
+"Por eu ter um familiar que faz uso de drogas, eu acho que as pessoas não percebem minhas qualidades",Nem concordo nem discordo (3),matrix,q32,NA,NA,T
+"Por eu ter um familiar que faz uso de drogas, eu acho que as pessoas não percebem minhas qualidades",Concordo parcialmente (4),matrix,q32,NA,NA,T
+"Por eu ter um familiar que faz uso de drogas, eu acho que as pessoas não percebem minhas qualidades",Concordo totalmente (5),matrix,q32,NA,NA,T
+Eu sofro impactos negativos por ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q33,NA,NA,T
+Eu sofro impactos negativos por ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q33,NA,NA,T
+Eu sofro impactos negativos por ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q33,NA,NA,T
+Eu sofro impactos negativos por ter um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q33,NA,NA,T
+Eu sofro impactos negativos por ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q33,NA,NA,T
+Familiares de usuários de drogas não têm uma vida boa e tranquila ,Discordo totalmente (1),matrix,q34,NA,NA,T
+Familiares de usuários de drogas não têm uma vida boa e tranquila ,Discordo Parcialmente (2),matrix,q34,NA,NA,T
+Familiares de usuários de drogas não têm uma vida boa e tranquila ,Nem concordo nem discordo (3),matrix,q34,NA,NA,T
+Familiares de usuários de drogas não têm uma vida boa e tranquila ,Concordo parcialmente (4),matrix,q34,NA,NA,T
+Familiares de usuários de drogas não têm uma vida boa e tranquila ,Concordo totalmente (5),matrix,q34,NA,NA,T
+Minha vida foi estragada por eu ter um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q35,NA,NA,T
+Minha vida foi estragada por eu ter um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q35,NA,NA,T
+Minha vida foi estragada por eu ter um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q35,NA,NA,T
+Minha vida foi estragada por eu ter um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q35,NA,NA,T
+Minha vida foi estragada por eu ter um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q35,NA,NA,T
+Eu evito dizer as outras pessoas que tenho um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q36,NA,NA,T
+Eu evito dizer as outras pessoas que tenho um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q36,NA,NA,T
+Eu evito dizer as outras pessoas que tenho um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q36,NA,NA,T
+Eu evito dizer as outras pessoas que tenho um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q36,NA,NA,T
+Eu evito dizer as outras pessoas que tenho um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q36,NA,NA,T
+Eu não tenho mais relações com amigos e outros parentes porque eu tenho um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q37,NA,NA,T
+Eu não tenho mais relações com amigos e outros parentes porque eu tenho um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q37,NA,NA,T
+Eu não tenho mais relações com amigos e outros parentes porque eu tenho um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q37,NA,NA,T
+Eu não tenho mais relações com amigos e outros parentes porque eu tenho um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q37,NA,NA,T
+Eu não tenho mais relações com amigos e outros parentes porque eu tenho um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q37,NA,NA,T
+Eu evito participar de atividades voltadas para o tratamento de dependentes para que as pessoas não saibam que eu tenho um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q38,NA,NA,T
+Eu evito participar de atividades voltadas para o tratamento de dependentes para que as pessoas não saibam que eu tenho um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q38,NA,NA,T
+Eu evito participar de atividades voltadas para o tratamento de dependentes para que as pessoas não saibam que eu tenho um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q38,NA,NA,T
+Eu evito participar de atividades voltadas para o tratamento de dependentes para que as pessoas não saibam que eu tenho um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q38,NA,NA,T
+Eu evito participar de atividades voltadas para o tratamento de dependentes para que as pessoas não saibam que eu tenho um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q38,NA,NA,T
+Eu não tenho mais relações com meus vizinhos porque eu tenho um familiar que faz uso de drogas,Discordo totalmente (1),matrix,q39,NA,NA,T
+Eu não tenho mais relações com meus vizinhos porque eu tenho um familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q39,NA,NA,T
+Eu não tenho mais relações com meus vizinhos porque eu tenho um familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q39,NA,NA,T
+Eu não tenho mais relações com meus vizinhos porque eu tenho um familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q39,NA,NA,T
+Eu não tenho mais relações com meus vizinhos porque eu tenho um familiar que faz uso de drogas,Concordo totalmente (5),matrix,q39,NA,NA,T
+Eu evito levar meu familiar que faz uso de drogas em festas e confraternizações,Discordo totalmente (1),matrix,q40,NA,NA,T
+Eu evito levar meu familiar que faz uso de drogas em festas e confraternizações,Discordo Parcialmente (2),matrix,q40,NA,NA,T
+Eu evito levar meu familiar que faz uso de drogas em festas e confraternizações,Nem concordo nem discordo (3),matrix,q40,NA,NA,T
+Eu evito levar meu familiar que faz uso de drogas em festas e confraternizações,Concordo parcialmente (4),matrix,q40,NA,NA,T
+Eu evito levar meu familiar que faz uso de drogas em festas e confraternizações,Concordo totalmente (5),matrix,q40,NA,NA,T
+"Eu não falo sobre meu familiar que faz uso de drogas, pporque eu não quero incomodar os outros",Discordo totalmente (1),matrix,q41,NA,NA,T
+"Eu não falo sobre meu familiar que faz uso de drogas, pporque eu não quero incomodar os outros",Discordo Parcialmente (2),matrix,q41,NA,NA,T
+"Eu não falo sobre meu familiar que faz uso de drogas, pporque eu não quero incomodar os outros",Nem concordo nem discordo (3),matrix,q41,NA,NA,T
+"Eu não falo sobre meu familiar que faz uso de drogas, pporque eu não quero incomodar os outros",Concordo parcialmente (4),matrix,q41,NA,NA,T
+"Eu não falo sobre meu familiar que faz uso de drogas, pporque eu não quero incomodar os outros",Concordo totalmente (5),matrix,q41,NA,NA,T
+"Quando eu estou com meu familiar que faz uso de drogas, eu me comporto da forma mais discreta possível",Discordo totalmente (1),matrix,q42,NA,NA,T
+"Quando eu estou com meu familiar que faz uso de drogas, eu me comporto da forma mais discreta possível",Discordo Parcialmente (2),matrix,q42,NA,NA,T
+"Quando eu estou com meu familiar que faz uso de drogas, eu me comporto da forma mais discreta possível",Nem concordo nem discordo (3),matrix,q42,NA,NA,T
+"Quando eu estou com meu familiar que faz uso de drogas, eu me comporto da forma mais discreta possível",Concordo parcialmente (4),matrix,q42,NA,NA,T
+"Quando eu estou com meu familiar que faz uso de drogas, eu me comporto da forma mais discreta possível",Concordo totalmente (5),matrix,q42,NA,NA,T
+Eu evito conversar com meu familiar que faz uso drogas,Discordo totalmente (1),matrix,q43,NA,NA,T
+Eu evito conversar com meu familiar que faz uso drogas,Discordo Parcialmente (2),matrix,q43,NA,NA,T
+Eu evito conversar com meu familiar que faz uso drogas,Nem concordo nem discordo (3),matrix,q43,NA,NA,T
+Eu evito conversar com meu familiar que faz uso drogas,Concordo parcialmente (4),matrix,q43,NA,NA,T
+Eu evito conversar com meu familiar que faz uso drogas,Concordo totalmente (5),matrix,q43,NA,NA,T
+Eu evito sair com meu familiar que faz uso de drogas,Discordo totalmente (1),matrix,q44,NA,NA,T
+Eu evito sair com meu familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q44,NA,NA,T
+Eu evito sair com meu familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q44,NA,NA,T
+Eu evito sair com meu familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q44,NA,NA,T
+Eu evito sair com meu familiar que faz uso de drogas,Concordo totalmente (5),matrix,q44,NA,NA,T
+Eu não tenho mais contato com meu familiar que faz uso de drogas,Discordo totalmente (1),matrix,q45,NA,NA,T
+Eu não tenho mais contato com meu familiar que faz uso de drogas,Discordo Parcialmente (2),matrix,q45,NA,NA,T
+Eu não tenho mais contato com meu familiar que faz uso de drogas,Nem concordo nem discordo (3),matrix,q45,NA,NA,T
+Eu não tenho mais contato com meu familiar que faz uso de drogas,Concordo parcialmente (4),matrix,q45,NA,NA,T
+Eu não tenho mais contato com meu familiar que faz uso de drogas,Concordo totalmente (5),matrix,q45,NA,NA,T
+ESCALA DE ANSIEDADE GAD-7,Nenhuma vez (0),matrix,q46,NA,NA,T
+ESCALA DE ANSIEDADE GAD-7,Vários dias (1),matrix,q46,NA,NA,T
+ESCALA DE ANSIEDADE GAD-7,Mais da metade dos dias (2),matrix,q46,NA,NA,T
+ESCALA DE ANSIEDADE GAD-7,Quase todos os dias (3),matrix,q46,NA,NA,T
+"Sentir-se nervoso, ansioso ou muito tenso",Nenhuma vez (0),matrix,q47,NA,NA,T
+"Sentir-se nervoso, ansioso ou muito tenso",Vários dias (1),matrix,q47,NA,NA,T
+"Sentir-se nervoso, ansioso ou muito tenso",Mais da metade dos dias (2),matrix,q47,NA,NA,T
+"Sentir-se nervoso, ansioso ou muito tenso",Quase todos os dias (3),matrix,q47,NA,NA,T
+Não ser capaz de parar ou controlar a preocupação,Nenhuma vez (0),matrix,q47.1,NA,NA,T
+Não ser capaz de parar ou controlar a preocupação,Vários dias (1),matrix,q47.1,NA,NA,T
+Não ser capaz de parar ou controlar a preocupação,Mais da metade dos dias (2),matrix,q47.1,NA,NA,T
+Não ser capaz de parar ou controlar a preocupação,Quase todos os dias (3),matrix,q47.1,NA,NA,T
+Peocupar-se muito com coisas diferentes,Nenhuma vez (0),matrix,q48,NA,NA,T
+Peocupar-se muito com coisas diferentes,Vários dias (1),matrix,q48,NA,NA,T
+Peocupar-se muito com coisas diferentes,Mais da metade dos dias (2),matrix,q48,NA,NA,T
+Peocupar-se muito com coisas diferentes,Quase todos os dias (3),matrix,q48,NA,NA,T
+Dificuldade para relaxar,Nenhuma vez (0),matrix,q49,NA,NA,T
+Dificuldade para relaxar,Vários dias (1),matrix,q49,NA,NA,T
+Dificuldade para relaxar,Mais da metade dos dias (2),matrix,q49,NA,NA,T
+Dificuldade para relaxar,Quase todos os dias (3),matrix,q49,NA,NA,T
+Ficar tão agitado(a) que se torna difícil permanecer sentado(a) ,Nenhuma vez (0),matrix,q50,NA,NA,T
+Ficar tão agitado(a) que se torna difícil permanecer sentado(a) ,Vários dias (1),matrix,q50,NA,NA,T
+Ficar tão agitado(a) que se torna difícil permanecer sentado(a) ,Mais da metade dos dias (2),matrix,q50,NA,NA,T
+Ficar tão agitado(a) que se torna difícil permanecer sentado(a) ,Quase todos os dias (3),matrix,q50,NA,NA,T
+Ficar facilmente aborrecido(a) ou irritado(a),Nenhuma vez (0),matrix,q51,NA,NA,T
+Ficar facilmente aborrecido(a) ou irritado(a),Vários dias (1),matrix,q51,NA,NA,T
+Ficar facilmente aborrecido(a) ou irritado(a),Mais da metade dos dias (2),matrix,q51,NA,NA,T
+Ficar facilmente aborrecido(a) ou irritado(a),Quase todos os dias (3),matrix,q51,NA,NA,T
+Sentir medo como se algo terrível pudesse ,Nenhuma vez (0),matrix,q52,NA,NA,T
+Sentir medo como se algo terrível pudesse ,Vários dias (1),matrix,q52,NA,NA,T
+Sentir medo como se algo terrível pudesse ,Mais da metade dos dias (2),matrix,q52,NA,NA,T
+Sentir medo como se algo terrível pudesse ,Quase todos os dias (3),matrix,q52,NA,NA,T
+QUESTIONÁRIO SOBRE A SAÚDE DO PACIENTE  (PHQ-9),Nenhum dia (0),matrix,q53,NA,NA,T
+QUESTIONÁRIO SOBRE A SAÚDE DO PACIENTE  (PHQ-9),Menos de uma semana (1),matrix,q53,NA,NA,T
+QUESTIONÁRIO SOBRE A SAÚDE DO PACIENTE  (PHQ-9),Uma semana ou mais(2),matrix,q53,NA,NA,T
+QUESTIONÁRIO SOBRE A SAÚDE DO PACIENTE  (PHQ-9),Quase todos os dias (3),matrix,q53,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve pouco interesse ou pouco prazer em fazer as coisas?",Nenhum dia (0),matrix,q54,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve pouco interesse ou pouco prazer em fazer as coisas?",Menos de uma semana (1),matrix,q54,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve pouco interesse ou pouco prazer em fazer as coisas?",Uma semana ou mais(2),matrix,q54,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve pouco interesse ou pouco prazer em fazer as coisas?",Quase todos os dias (3),matrix,q54,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu para baixo, deprimido(a) ou sem perpectiva",Nenhum dia (0),matrix,q55,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu para baixo, deprimido(a) ou sem perpectiva",Menos de uma semana (1),matrix,q55,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu para baixo, deprimido(a) ou sem perpectiva",Uma semana ou mais(2),matrix,q55,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu para baixo, deprimido(a) ou sem perpectiva",Quase todos os dias (3),matrix,q55,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para pegar no sono ou permanecer dormindo ou dormiu mais do  que o de costume",Nenhum dia (0),matrix,q56,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para pegar no sono ou permanecer dormindo ou dormiu mais do  que o de costume",Menos de uma semana (1),matrix,q56,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para pegar no sono ou permanecer dormindo ou dormiu mais do  que o de costume",Uma semana ou mais(2),matrix,q56,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para pegar no sono ou permanecer dormindo ou dormiu mais do  que o de costume",Quase todos os dias (3),matrix,q56,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) se sentiu cansado(a) ou com pouca energia?",Nenhum dia (0),matrix,q56.1,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) se sentiu cansado(a) ou com pouca energia?",Menos de uma semana (1),matrix,q56.1,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) se sentiu cansado(a) ou com pouca energia?",Uma semana ou mais(2),matrix,q56.1,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) se sentiu cansado(a) ou com pouca energia?",Quase todos os dias (3),matrix,q56.1,NA,NA,T
+"Nas útilmas duas semanas, quantos dias o(a) sr(a) teve falta de apetite ou comeu demais?",Nenhum dia (0),matrix,q57,NA,NA,T
+"Nas útilmas duas semanas, quantos dias o(a) sr(a) teve falta de apetite ou comeu demais?",Menos de uma semana (1),matrix,q57,NA,NA,T
+"Nas útilmas duas semanas, quantos dias o(a) sr(a) teve falta de apetite ou comeu demais?",Uma semana ou mais(2),matrix,q57,NA,NA,T
+"Nas útilmas duas semanas, quantos dias o(a) sr(a) teve falta de apetite ou comeu demais?",Quase todos os dias (3),matrix,q57,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu mal consigo mesmo(a)  ou achou que é u, fracasso ou que decepcionou sua família ou a você mesmo(a)",Nenhum dia (0),matrix,q58,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu mal consigo mesmo(a)  ou achou que é u, fracasso ou que decepcionou sua família ou a você mesmo(a)",Menos de uma semana (1),matrix,q58,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu mal consigo mesmo(a)  ou achou que é u, fracasso ou que decepcionou sua família ou a você mesmo(a)",Uma semana ou mais(2),matrix,q58,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) se sentiu mal consigo mesmo(a)  ou achou que é u, fracasso ou que decepcionou sua família ou a você mesmo(a)",Quase todos os dias (3),matrix,q58,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para se concentrar nas coisas (como ler o jornal ou ver a televisão)",Nenhum dia (0),matrix,q59,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para se concentrar nas coisas (como ler o jornal ou ver a televisão)",Menos de uma semana (1),matrix,q59,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para se concentrar nas coisas (como ler o jornal ou ver a televisão)",Uma semana ou mais(2),matrix,q59,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr(a) teve dificuldade para se concentrar nas coisas (como ler o jornal ou ver a televisão)",Quase todos os dias (3),matrix,q59,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) teve lentidão para se movimentar ou falar (a ponto das outras pessoas perceberem), ou ao contrário, esteve tão agitado(a) que você ficava andando de um lado para o outro mais do que de costume?",Nenhum dia (0),matrix,q60,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) teve lentidão para se movimentar ou falar (a ponto das outras pessoas perceberem), ou ao contrário, esteve tão agitado(a) que você ficava andando de um lado para o outro mais do que de costume?",Menos de uma semana (1),matrix,q60,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) teve lentidão para se movimentar ou falar (a ponto das outras pessoas perceberem), ou ao contrário, esteve tão agitado(a) que você ficava andando de um lado para o outro mais do que de costume?",Uma semana ou mais(2),matrix,q60,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) teve lentidão para se movimentar ou falar (a ponto das outras pessoas perceberem), ou ao contrário, esteve tão agitado(a) que você ficava andando de um lado para o outro mais do que de costume?",Quase todos os dias (3),matrix,q60,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) pensou em se ferir de alguma maneira ou que seria melhor estar morto(a)?",Nenhum dia (0),matrix,q61,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) pensou em se ferir de alguma maneira ou que seria melhor estar morto(a)?",Menos de uma semana (1),matrix,q61,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) pensou em se ferir de alguma maneira ou que seria melhor estar morto(a)?",Uma semana ou mais(2),matrix,q61,NA,NA,T
+"Nas últimas duas semanas, quantos dias o(a) sr.(a) pensou em se ferir de alguma maneira ou que seria melhor estar morto(a)?",Quase todos os dias (3),matrix,q61,NA,NA,T
+"Considerando as últimas duas semanas, os sintomas anteriores lhe causaram algum tipo de dificuldade para trabalhar ou estudar ou tomar conta das coisas em casa ou para se relacionar com as pessoas?",Nenhum dia (0),matrix,q62,NA,NA,T
+"Considerando as últimas duas semanas, os sintomas anteriores lhe causaram algum tipo de dificuldade para trabalhar ou estudar ou tomar conta das coisas em casa ou para se relacionar com as pessoas?",Menos de uma semana (1),matrix,q62,NA,NA,T
+"Considerando as últimas duas semanas, os sintomas anteriores lhe causaram algum tipo de dificuldade para trabalhar ou estudar ou tomar conta das coisas em casa ou para se relacionar com as pessoas?",Uma semana ou mais(2),matrix,q62,NA,NA,T
+"Considerando as últimas duas semanas, os sintomas anteriores lhe causaram algum tipo de dificuldade para trabalhar ou estudar ou tomar conta das coisas em casa ou para se relacionar com as pessoas?",Quase todos os dias (3),matrix,q62,NA,NA,T
+ESCALA DE AUTOESTIMA DE ROSENBERG (RSES),Concordo completamente(1),matrix,q63,NA,NA,T
+ESCALA DE AUTOESTIMA DE ROSENBERG (RSES),Concordo(2),matrix,q63,NA,NA,T
+ESCALA DE AUTOESTIMA DE ROSENBERG (RSES),Discordo(3),matrix,q63,NA,NA,T
+ESCALA DE AUTOESTIMA DE ROSENBERG (RSES),Discordo completamente (4),matrix,q63,NA,NA,T
+"Sinto que sou uma pessoa de valor, no mínimo, tanto quanto as outras pessoas",Concordo completamente(1),matrix,q64,NA,NA,T
+"Sinto que sou uma pessoa de valor, no mínimo, tanto quanto as outras pessoas",Concordo(2),matrix,q64,NA,NA,T
+"Sinto que sou uma pessoa de valor, no mínimo, tanto quanto as outras pessoas",Discordo(3),matrix,q64,NA,NA,T
+"Sinto que sou uma pessoa de valor, no mínimo, tanto quanto as outras pessoas",Discordo completamente (4),matrix,q64,NA,NA,T
+Eu acho que tenho várias boas qualidades,Concordo completamente(1),matrix,q65,NA,NA,T
+Eu acho que tenho várias boas qualidades,Concordo(2),matrix,q65,NA,NA,T
+Eu acho que tenho várias boas qualidades,Discordo(3),matrix,q65,NA,NA,T
+Eu acho que tenho várias boas qualidades,Discordo completamente (4),matrix,q65,NA,NA,T
+"Levando tudo em conta, eu penso que sou um fracasso",Concordo completamente(1),matrix,q66,NA,NA,T
+"Levando tudo em conta, eu penso que sou um fracasso",Concordo(2),matrix,q66,NA,NA,T
+"Levando tudo em conta, eu penso que sou um fracasso",Discordo(3),matrix,q66,NA,NA,T
+"Levando tudo em conta, eu penso que sou um fracasso",Discordo completamente (4),matrix,q66,NA,NA,T
+Eu sou capaz de fazer as coisas tão bem quanto a maioria das pessoas,Concordo completamente(1),matrix,q67,NA,NA,T
+Eu sou capaz de fazer as coisas tão bem quanto a maioria das pessoas,Concordo(2),matrix,q67,NA,NA,T
+Eu sou capaz de fazer as coisas tão bem quanto a maioria das pessoas,Discordo(3),matrix,q67,NA,NA,T
+Eu sou capaz de fazer as coisas tão bem quanto a maioria das pessoas,Discordo completamente (4),matrix,q67,NA,NA,T
+Eu acho que eu não tenho muito do que me orgulhar,Concordo completamente(1),matrix,q68,NA,NA,T
+Eu acho que eu não tenho muito do que me orgulhar,Concordo(2),matrix,q68,NA,NA,T
+Eu acho que eu não tenho muito do que me orgulhar,Discordo(3),matrix,q68,NA,NA,T
+Eu acho que eu não tenho muito do que me orgulhar,Discordo completamente (4),matrix,q68,NA,NA,T
+Eu tenho uma atitude positiva em relação a mim mesmo (a),Concordo completamente(1),matrix,q69,NA,NA,T
+Eu tenho uma atitude positiva em relação a mim mesmo (a),Concordo(2),matrix,q69,NA,NA,T
+Eu tenho uma atitude positiva em relação a mim mesmo (a),Discordo(3),matrix,q69,NA,NA,T
+Eu tenho uma atitude positiva em relação a mim mesmo (a),Discordo completamente (4),matrix,q69,NA,NA,T
+"No geral, estou satisfeto(a) comigo mesmo(a)",Concordo completamente(1),matrix,q70,NA,NA,T
+"No geral, estou satisfeto(a) comigo mesmo(a)",Concordo(2),matrix,q70,NA,NA,T
+"No geral, estou satisfeto(a) comigo mesmo(a)",Discordo(3),matrix,q70,NA,NA,T
+"No geral, estou satisfeto(a) comigo mesmo(a)",Discordo completamente (4),matrix,q70,NA,NA,T
+Gostaria de ter mais respeito por mim mesmo(a),Concordo completamente(1),matrix,q71,NA,NA,T
+Gostaria de ter mais respeito por mim mesmo(a),Concordo(2),matrix,q71,NA,NA,T
+Gostaria de ter mais respeito por mim mesmo(a),Discordo(3),matrix,q71,NA,NA,T
+Gostaria de ter mais respeito por mim mesmo(a),Discordo completamente (4),matrix,q71,NA,NA,T
+Às vezes me sinto inútil,Concordo completamente(1),matrix,q72,NA,NA,T
+Às vezes me sinto inútil,Concordo(2),matrix,q72,NA,NA,T
+Às vezes me sinto inútil,Discordo(3),matrix,q72,NA,NA,T
+Às vezes me sinto inútil,Discordo completamente (4),matrix,q72,NA,NA,T
+Às vezes eu penso que não sirvo para nada,Concordo completamente(1),matrix,q73,NA,NA,T
+Às vezes eu penso que não sirvo para nada,Concordo(2),matrix,q73,NA,NA,T
+Às vezes eu penso que não sirvo para nada,Discordo(3),matrix,q73,NA,NA,T
+Às vezes eu penso que não sirvo para nada,Discordo completamente (4),matrix,q73,NA,NA,T
